@@ -1,0 +1,30 @@
+{
+  "name": "vue-cli-plugin-multi-compiler",
+  "version": "0.0.1",
+  "description": "use vue-cli with webpack multi-compiler mode",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkzing/vue-cli-plugin-multi-compiler.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "webpack"
+  ],
+  "author": "jkzing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkzing/vue-cli-plugin-multi-compiler/issues"
+  },
+  "homepage": "https://github.com/jkzing/vue-cli-plugin-multi-compiler#readme",
+  "dependencies": {
+    "webpack-merge": "^4.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
