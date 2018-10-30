@@ -13,7 +13,7 @@ module.exports = (api, options) => {
     if (typeof configureMultiCompilerWebpack === 'function') {
       config = configureMultiCompilerWebpack(config)
     } else if (Array.isArray(configureMultiCompilerWebpack)) {
-      config = configureMultiCompilerWebpack.map(merge.bind(null, config))
+      config = configureMultiCompilerWebpack.map(curr => merge(config, curr))
     }
     return config
   }
