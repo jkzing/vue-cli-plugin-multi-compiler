@@ -14,7 +14,7 @@ This plugin provides a option (`configureMultiCompilerWebpack`) in `vue.config.j
 
 You can use either a `function` or an `array`:
 
-### function example
+### function usage
 
 ```js
 module.exports = {
@@ -40,14 +40,14 @@ module.exports = {
 }
 ```
 
-### array example
+### array usage
 
 ```js
 module.exports = {
   pluginOptions: {
     configureMultiCompilerWebpack: [
       // configurations here will be merged with original webpack config
-      // by webpack-merge
+      // by `webpack-merge`
       {
         entry: {
           main: './src/main.js'
