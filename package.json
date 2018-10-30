@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-multi-compiler",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "use vue-cli with webpack multi-compiler mode",
   "main": "index.js",
   "repository": {
