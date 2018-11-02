@@ -10,7 +10,7 @@ vue add multi-compiler
 
 ## Configure
 
-This plugin provides a option (`configureMultiCompilerWebpack`) in `vue.config.js` to tweak original vue cli webpack config into multiple configs.
+This plugin provides an option (`configureMultiCompilerWebpack`) in `vue.config.js` to tweak original vue cli webpack config into multiple configs.
 
 You can use either a `function` or an `array`:
 
